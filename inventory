@@ -1,0 +1,9 @@
+[servers]
+192.168.56.116 ansible_python_interpreter=/usr/bin/python
+192.168.56.101 ansible_python_interpreter=/usr/bin/python3
+
+[Ubuntu]
+192.168.56.101 ansible_python_interpreter=/usr/bin/python3 
+
+[CentOS]
+192.168.56.116 ansible_python_interpreter=/usr/bin/python
